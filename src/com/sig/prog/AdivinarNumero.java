@@ -2,7 +2,7 @@
 * Ejercicio adivinar número
 * 
 * @author  Adán García Santos
-* @version 1.0
+* @version 1.1
 * @since   22-01-2018
 */
 
@@ -31,6 +31,8 @@ public class AdivinarNumero {
 			}
 			
 		}
+		
+		sc_numero.close();	//Cerrar lector
 	}
 
 }
